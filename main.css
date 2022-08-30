@@ -7,6 +7,9 @@
 
 
 /* global */
+*{
+  box-sizing: border-box;
+}
 body{
     margin: 0;
     padding: 0;
@@ -206,11 +209,10 @@ p{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-gap: 30px;
-  align-items: center;
+  
 }
 .blog-flex{
-  display: grid;
-  grid-template-columns: 25% 75%;
+  display: flex;
 }
 
 
