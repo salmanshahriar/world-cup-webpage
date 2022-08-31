@@ -335,6 +335,19 @@ footer a:hover {
 
 @media only screen and (max-width: 568px){
 
+
+  .sec-2 {
+    padding: 5px;
+    background: #ffffff;
+    border-radius: 10px;
+    height: fit-content;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    margin-bottom: 20px;
+}
+
 .container{
   max-width: 325px;
 }
@@ -349,9 +362,6 @@ footer a:hover {
 .second-column img {
   width: 260px;
   height: 313px;
-}
-.second-column{
-  
 }
 
 .title {
@@ -375,9 +385,7 @@ flex-direction: column;
 
 }
 
-.sec-2{
-margin-bottom: 20px;
-}
+
 .second-section {
   display: flex;
   flex-direction: column;
@@ -385,19 +393,12 @@ margin-bottom: 20px;
   align-items: center;
   background-repeat: no-repeat;
   background-position: right;
+
 }
 .second-column {
   padding-left: 0px;
 }
-.sec-2 {
-padding: 5px;
-background: #ffffff;
-border-radius: 10px;
-height: fit-content;
-display: flex;
-flex-direction: row;
-justify-content: none;
-}
+
 
 .sec-1{
   padding: 0;
@@ -421,7 +422,7 @@ justify-content: none;
 
 
 
-}
+
 
 
 

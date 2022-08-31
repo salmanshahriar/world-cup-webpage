@@ -13,7 +13,6 @@
   padding: 30px;
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   border-radius: 10px;
-  width: fit-content;
   height: fit-content;
 }
 .gap{
@@ -34,8 +33,8 @@
 }
 
 .veiw-button{
-  margin:  30px 400px 0px 400px ;
   display: none;
+  text-align: center;
 }
 
 @media only screen and (max-width: 992px){
@@ -48,6 +47,28 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .button-5 a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 17px 20px;
+    margin-top: 30px;
+    font-weight: 700;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: #dd0000;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .button-5 a:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
 
 }
 
